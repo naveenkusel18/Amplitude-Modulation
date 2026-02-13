@@ -84,7 +84,7 @@ fs=24400;
 
 t=0:1/fs:2/fm;
 
-em=am*cos(2*3.14*fm*t);
+em=am * cos(2 * 3.14 * fm * t);
 
 subplot(3,1,1);
 
@@ -94,13 +94,13 @@ ac=14.4;
 
 fc=2440;
 
-ec=ac*cos(2*3.14*fc*t);
+ec=ac * cos(2 * 3.14 * fc * t);
 
 subplot(3,1,2);
 
 plot(t,ec);
 
-eam=ac*(1+(em/ac)).*cos(2*3.14*fc*t);
+eam=ac*(1+(em/ac)). * cos(2 * 3.14 * fc * t);
 
 subplot(3,1,3);
 
